@@ -16,7 +16,6 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 pragma solidity 0.8.18;
 import "hardhat/console.sol";
-
 contract MyToken {
 
     // public variables here
@@ -43,8 +42,7 @@ contract MyToken {
         }
        
     }
-
-}
+    }
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.9" (or another compatible version), and then click on the "Compile MyToken.sol" button.
 
